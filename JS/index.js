@@ -108,7 +108,6 @@ switch (bienvenidos) {
   case 1:
     const nuevoProducto = new Inventario();
     nuevoProducto.anadirProducto();
-    let nuevoProductoJoin = nuevoProducto.jo;
 
     console.log(inventarioTienda);
     console.log("El nuevo producto ingresdo:", nuevoProducto);
